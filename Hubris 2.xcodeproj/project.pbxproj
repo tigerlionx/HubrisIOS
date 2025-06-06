@@ -27,6 +27,7 @@
 		BDA6E2A72DEC6C9C00272C0C /* Hubris 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hubris 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA6E2B62DEC6C9F00272C0C /* Hubris 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hubris 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA6E2C02DEC6C9F00272C0C /* Hubris 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hubris 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6F69D2DED73FE00272C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +44,21 @@
 		BDA6E2C32DEC6C9F00272C0C /* Hubris 2UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Hubris 2UITests";
+			sourceTree = "<group>";
+		};
+		BDA6E2DF2DEC6DF900272C0C /* views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = views;
+			sourceTree = "<group>";
+		};
+		BDA6E2ED2DEC7AF300272C0C /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDA6F68F2DED1F4700272C0C /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +91,14 @@
 		BDA6E29E2DEC6C9C00272C0C = {
 			isa = PBXGroup;
 			children = (
+				BDA6F69D2DED73FE00272C0C /* Info.plist */,
+				BDA6F68F2DED1F4700272C0C /* Helpers */,
 				BDA6E2A92DEC6C9C00272C0C /* Hubris 2 */,
 				BDA6E2B92DEC6C9F00272C0C /* Hubris 2Tests */,
 				BDA6E2C32DEC6C9F00272C0C /* Hubris 2UITests */,
 				BDA6E2A82DEC6C9C00272C0C /* Products */,
+				BDA6E2DF2DEC6DF900272C0C /* views */,
+				BDA6E2ED2DEC7AF300272C0C /* Models */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +129,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				BDA6E2A92DEC6C9C00272C0C /* Hubris 2 */,
+				BDA6E2DF2DEC6DF900272C0C /* views */,
+				BDA6E2ED2DEC7AF300272C0C /* Models */,
+				BDA6F68F2DED1F4700272C0C /* Helpers */,
 			);
 			name = "Hubris 2";
 			packageProductDependencies = (
