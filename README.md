@@ -1,2 +1,0 @@
-# HubrisIOS
-Hubris Iphone Application
